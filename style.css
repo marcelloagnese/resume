@@ -1,5 +1,9 @@
-
-
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+}
 
 @keyframes move_wave {
     0% {
