@@ -1,10 +1,11 @@
 .container
 {
-    position: relative;
-    width: 50%;
-    margin: auto;
-    background-color: #fc2c03;
+  background-color: crimson;
 }
+.body {
+    width:100%;
+}
+
 
 @keyframes move_wave {
     0% {
@@ -74,4 +75,4 @@
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
-}S
+}
