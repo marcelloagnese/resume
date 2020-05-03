@@ -67,3 +67,11 @@
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
+
+.container
+{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    background-color: #fc2c03;
+}
