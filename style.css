@@ -1,3 +1,11 @@
+.container
+{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    background-color: #fc2c03;
+}
+
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -66,12 +74,4 @@
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
-}
-
-.container
-{
-    position: relative;
-    width: 50%;
-    margin: auto;
-    background-color: #fc2c03;
-}
+}S
